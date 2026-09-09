@@ -958,6 +958,38 @@
 	font-size: 0;
 }
 
+.itemExternalLinks a[href*="api.simkl"] {
+    background: none !important;
+    color: transparent !important;
+    padding: 0 !important;
+}
+
+.itemExternalLinks a[href*="api.simkl"]::before {
+	content: "";
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-image: url('https://cdn.jsdelivr.net/gh/Druidblack/jellyfin-icon-metadata@main/icons/simkl/simkl.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.layout-desktop .itemExternalLinks.focuscontainer-x > a[href*="api.simkl"]:hover,
+.layout-desktop .itemExternalLinks.focuscontainer-x > a[href*="api.simkl"]:focus,
+.layout-desktop .itemExternalLinks.focuscontainer-x > a[href*="api.simkl"]:active {
+    background: none !important;
+	background-color: transparent !important;
+    background-image: none !important;
+    filter: none !important;
+    border-color: transparent !important;
+}
+
+.itemExternalLinks a[href*="api.simkl"] {
+	font-size: 0;
+}
+
 .itemExternalLinks a[href*="tvlistings.zap2it.com"] {
     background: none !important;
     color: transparent !important;

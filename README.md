@@ -25,6 +25,7 @@ Enhance your Jellyfin experience by replacing text-based metadata provider links
 - theporndb.net
 - thetvdb.com
 - trakt.tv
+- simkl.com
 - tvmaze.com
 - kinopoisk.ru
 - tvlistings.zap2it.com
